@@ -208,6 +208,7 @@ class NewsAnalyzer:
                     and cfg["EMAIL_TO"]
                 ),
                 (cfg["NTFY_SERVER_URL"] and cfg["NTFY_TOPIC"]),
+                (cfg["GENERIC_WEBHOOK_URL"] and cfg["GENERIC_WEBHOOK_TEMPLATE"]),
                 cfg["BARK_URL"],
                 cfg["SLACK_WEBHOOK_URL"],
             ]
